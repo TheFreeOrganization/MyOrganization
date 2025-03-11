@@ -31,7 +31,7 @@ public class AuthController {
         this.passwordEncoder = passwordEncoder;
         this.userRepository = userRepository;
     }
-
+ 
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody LoginRequest loginRequest)  {
 
